@@ -1,0 +1,17 @@
+package main;
+
+import main.PageCrawler;
+import tests.*;
+
+public class Initialize {
+	
+	public static void StartCrawler(String domainName, int numberPages) {
+		
+		PageCrawler.Crawl(domainName, numberPages);
+	}
+	
+	private void StartSecurityChecks() {
+		
+	}
+
+}

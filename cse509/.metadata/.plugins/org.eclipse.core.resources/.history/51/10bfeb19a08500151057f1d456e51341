@@ -1,0 +1,27 @@
+$( document ).ready(function() {
+    
+	
+	$('#btnResults').click(function(){
+	    updateInput();
+	});
+	
+});
+
+function updateInput() {
+	
+	var name = document.getElementById('domainName').value;
+	var number = document.getElementById('numberPages').value;
+	
+	$.ajax({
+		  type: "POST",
+		  url: "UserInput",
+		  data: { domainName: name, numberPages: number },
+		  success: function() {
+			  alert();
+		  },
+		  error: function() {
+			  alert("error");
+		  }
+		});
+}
+

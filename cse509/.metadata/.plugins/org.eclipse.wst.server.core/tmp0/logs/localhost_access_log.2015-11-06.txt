@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:00:33 -0500] "GET /Crawling/index.html HTTP/1.1" 200 1272
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:00:33 -0500] "GET /Crawling/style/index.css HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:01:07 -0500] "GET /Crawling/index.html HTTP/1.1" 200 1272
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:01:08 -0500] "GET /Crawling/style/index.css HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:02:05 -0500] "GET /Crawling/index.html HTTP/1.1" 200 1272
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:02:05 -0500] "GET /Crawling/style/index.css HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:02:21 -0500] "GET /Crawling/style/index.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:04:25 -0500] "GET /Crawling/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:04:25 -0500] "GET /Crawling/style/index.css HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:04:31 -0500] "GET /Crawling/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Nov/2015:00:04:31 -0500] "GET /Crawling/style/index.css HTTP/1.1" 304 -

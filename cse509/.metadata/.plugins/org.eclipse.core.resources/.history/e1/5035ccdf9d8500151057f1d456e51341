@@ -1,0 +1,19 @@
+$( document ).ready(function() {
+    
+	
+	$('#btnResults').click(function(){
+	    updateInput();
+	});
+	
+});
+
+function updateInput() {
+	$.ajax({
+		  type: "POST",
+		  url: "UserInput",
+		  success: function(data) {
+			  alert(data);
+		  }
+		});
+}
+

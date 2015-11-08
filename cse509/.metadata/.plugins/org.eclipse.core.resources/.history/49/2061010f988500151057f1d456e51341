@@ -1,0 +1,12 @@
+package main;
+
+import main.PageCrawler;
+
+public class initialize {
+	
+	private void StartCrawler(String domainName, int numberPages) {
+		
+		PageCrawler.Crawl(domainName, numberPages);
+	}
+
+}

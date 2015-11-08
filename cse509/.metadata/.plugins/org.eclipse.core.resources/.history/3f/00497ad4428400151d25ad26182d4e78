@@ -1,0 +1,12 @@
+#divTableMain {
+	padding-top: 20px;
+}
+
+#tableMain {
+	width: 100%;
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+}

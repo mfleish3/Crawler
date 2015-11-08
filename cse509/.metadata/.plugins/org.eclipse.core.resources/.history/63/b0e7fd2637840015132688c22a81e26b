@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crawler</title>
+  <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+  <h1>CSE 509 Distributed Web Crawler</h1>
+  <div>
+  	<div>
+  		<a>Shriya Gupta</a>
+  		<a>Matt Fleishman</a>
+  		<a>Parakshit</a>
+  		<a></a>
+  		<a></a>
+  	</div>
+  
+  <div id="divTableMain">
+  	<table id="tableMain">
+	  <tr>
+	    <td>URL</td>
+	    <td>Content-Security Policy</td> 
+	    <td>HTTP Strict Transport Policy</td>
+	    <td>HttpOnly and Secure Cookies</td>
+	    <td>Anticlickjacking headers (X-Frame-Options)</td>
+	    <td>Nonces in web forms</td>
+	  </tr>
+	  <tr>
+	    <td>http://www.example.com</td>
+	    <td>Yes</td> 
+	    <td>No</td>
+	    <td>Yes</td>
+	    <td>No</td>
+	    <td>Yes</td>
+	  </tr>
+	</table>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,31 @@
+$( document ).ready(function() {
+    
+	document.getElementById('btnResults').style.visibility = "hidden";
+	document.getElementById('loader').style.visibility = "hidden";
+	
+	$('#btnSubmit').click(function(){
+	    updateInput();
+	    document.getElementById('loader').style.visibility = "visible";
+	});
+	
+});
+
+function updateInput() {
+	
+	var name = document.getElementById('domainName').value;
+	var number = document.getElementById('numberPages').value;
+	
+	$.ajax({
+		  type: "POST",
+		  url: "UserInput",
+		  data: { domainName: name, numberPages: number },
+		  success: function() {
+			  document.getElementById('btnResults').style.visibility = "visible";
+			  document.getElementById('loader').style.visibility = "hidden";
+		  },
+		  error: function() {
+			  alert("error");
+		  }
+		});
+}
+

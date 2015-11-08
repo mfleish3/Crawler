@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Crawler Index Page</title>
+	  <link rel="stylesheet" type="text/css" href="style/index.css">
+	  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	  <script src="scripts/index.js"></script>
+	</head>
+	<body>
+		<div id="divProjectHeader">
+			<h1 id="headerProject">CSE 509 Distributed Web Crawler</h1>
+		</div>
+	  <div>
+	  	<div id="divGroup">
+	  		<a>Group Members:</a>
+	  		<a></a>
+	  		<a></a>
+	  		<a></a>
+	  		<a></a>
+	  		<a></a>
+	  	</div>
+	  
+	  	<div id="content">
+		  	<div class="inputContent" id="divInput">
+		  		<div>
+		  			<span>Domain:</span>
+		  			<input id="domainName" type="text" name="name">
+		  		</div>
+		  		<div>
+		  			<span>Number:</span>
+		  			<input id="numberPages" type="text" name="number">
+		  		</div>
+		  	</div>
+		  	<div class="inputContent" id="loader">
+		  		<img src="images/loader.gif">
+		  	</div>
+		</div>
+	  	
+	  	<div id="btns">
+	  		<button id="btnSubmit" type="button">Start Crawling</button>
+	  		<button id="btnResults" type="button">Show Results</button>
+	  	</div>
+	  
+	  	<div id="showResults">
+	  		
+	  	</div>
+	  
+		  <div id="divTableMain">
+		  	<table id="tableMain">
+			  <tr>
+			    <td>URL</td>
+			    <td>Content-Security Policy</td> 
+			    <td>HTTP Strict Transport Policy</td>
+			    <td>HttpOnly and Secure Cookies</td>
+			    <td>Anticlickjacking headers (X-Frame-Options)</td>
+			    <td>Nonces in web forms</td>
+			  </tr>
+			  <tr>
+			    <td>http://www.example.com</td>
+			    <td>Yes</td> 
+			    <td>No</td>
+			    <td>Yes</td>
+			    <td>No</td>
+			    <td>Yes</td>
+			  </tr>
+			</table>
+		  </div>
+	  </div>
+	</body>
+</html>

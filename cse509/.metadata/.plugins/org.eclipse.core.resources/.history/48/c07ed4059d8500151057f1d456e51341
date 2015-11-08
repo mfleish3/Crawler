@@ -1,0 +1,18 @@
+$( document ).ready(function() {
+    
+	
+	$('#btnResults').click(function(){
+	    alert("The paragraph was clicked.");
+	});
+	
+});
+
+function updateInput() {
+	$.ajax({
+		  type: "POST",
+		  url: "Initialize",
+		  data: data,
+		  success: success
+		});
+}
+
